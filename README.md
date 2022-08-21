@@ -30,4 +30,4 @@ This todo app uses them to validate the username and the todo id that are passed
 
 ### Conclusion
 
-Although these are very initial topics, the highest building can't be finished without a solid base.
+Although these are initial topics, the highest building can't be finished without a solid base.
