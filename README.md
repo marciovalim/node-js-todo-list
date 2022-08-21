@@ -1,11 +1,11 @@
 # Node.JS Todo List
 What can we learn from a simple Node.JS todo app REST API? 
 <br>
-The basics:
+A lot:
 
 ### HTTP Methods
 When creating a REST API, we use different HTTP methods, (such as GET, POST, PUT and others), to annotate different endpoint use cases.
-This means that when creating our todo API, we should do the following -- or something like that:
+This means that when creating our todo API, we should do something like the following:
 
 - POST /users => for creating an user;
 - GET /todos => for listing the todos;
@@ -26,3 +26,8 @@ Middlewares are functions that can be executed between an user's request and an 
 Because of that, we can use them for request validations that occurs many times.
 <br>
 This todo app uses them to validate the username and the todo id that are passed as parameters in some routes.
+
+
+### Conclusion
+
+Although all of these are very initial topics, the highest building can't be finished without a solid base.
