@@ -7,12 +7,12 @@ A lot:
 When creating a REST API, we use different HTTP methods, (such as GET, POST, PUT and others), to annotate different endpoint use cases.
 This means that when creating our todo API, we should do something like the following:
 
-- POST /users => for creating an user;
-- GET /todos => for listing the todos;
-- POST /todos => for creating a todo;
-- PUT /todos => for updating a todo information;
-- PATCH /todos => for setting a todo as done -- or making another small update;
-- DELETE /todos => for deleting a todo;
+- POST - /users => for creating an user;
+- GET - /todos => for listing the todos;
+- POST - /todos => for creating a todo;
+- PUT - /todos => for updating a todo information;
+- PATCH - /todos => for setting a todo as done -- or making another small update;
+- DELETE - /todos => for deleting a todo;
 
 ### API Parameters
 For receiving data in our app server, we can use different types of parameters, each with its own purpose:
